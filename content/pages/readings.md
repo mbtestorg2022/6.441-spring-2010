@@ -11,33 +11,324 @@ Reading assignments were taken from the course textbook:
 
 Cover, Thomas, and Joy Thomas. _Elements of Information Theory_. 2nd ed. New York, NY: Wiley-Interscience, 2006. ISBN: 9780471241959.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Introduction, entropy | Chapter 1, sections 2.1 - 2.5 |
-| 2 | Jensen's inequality, data processing theorem, Fanos's inequality | Sections 2.6 - 2.8, 2.11 |
-| 3 | Different types of convergence, asymptotic equipartition property (AEP), typical set, joint typicality | Sections 3.1 - 3.3, 8.6 |
-| 4 | Entropies of stochastic processes | Chapter 4 |
-| 5 | Data compression, Kraft inequality, optimal codes | Sections 5.1 - 5.4 |
-| 6 | Huffman codes | Sections 5.5 - 5.7 |
-| 7 | Shannon-Fano-Elias codes, Slepian-Wolf | Sections 5.8 - 5.9, section 14 through the end of 14.4.4.1 |
-| 8 | Channel capacity, binary symmetric and erasure channels | Sections 8.1 - 8.3 |
-| 9 | Maximizing capacity, Blahut-Arimoto | &nbsp; |
-| 10 | The channel coding theorem | Sections 8.4, 8.7 |
-| 11 | Strong coding theorem, types of errors | &nbsp; |
-| 12 | Strong coding theorem, error exponents | &nbsp; |
-| &nbsp; | In-class midterm | &nbsp; |
-| 13 | Fano's inequality and the converse to the coding theorem | Section 8.9 |
-| 14 | Feedback capacity | Section 8.12 |
-| 15 | Joint source channel coding | Section 8.13 |
-| 16 | Differential entropy, maximizing entropy | Chapter 9, sections 11.1 - 11.6 |
-| 17 | Additive Gaussian noise channel | Sections 10.1 - 10.3 |
-| 18 | Gaussian channels: parallel, colored noise, inter-symbol interference | Sections 10.4 - 10.5 |
-| 19 | Gaussian channels with feedback | Section 10.6 |
-| 20 | Multiple access channels | Sections 14.1 - 14.3 |
-| 21 | Broadcast channels | Section 14.6 |
-| &nbsp; | In-class presentations (2 sessions) | &nbsp; |
-| 22 | Finite state Markov channels | &nbsp; |
-| 23 | Channel side information, wide-band channels |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction, entropy
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 1, sections 2.1 - 2.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Jensen's inequality, data processing theorem, Fanos's inequality
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 2.6 - 2.8, 2.11
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Different types of convergence, asymptotic equipartition property (AEP), typical set, joint typicality
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 3.1 - 3.3, 8.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Entropies of stochastic processes
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Data compression, Kraft inequality, optimal codes
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.1 - 5.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Huffman codes
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.5 - 5.7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Shannon-Fano-Elias codes, Slepian-Wolf
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.8 - 5.9, section 14 through the end of 14.4.4.1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Channel capacity, binary symmetric and erasure channels
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 8.1 - 8.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Maximizing capacity, Blahut-Arimoto
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+The channel coding theorem
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 8.4, 8.7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Strong coding theorem, types of errors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Strong coding theorem, error exponents
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+In-class midterm
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Fano's inequality and the converse to the coding theorem
+{{< tdclose >}}
+{{< tdopen >}}
+Section 8.9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Feedback capacity
+{{< tdclose >}}
+{{< tdopen >}}
+Section 8.12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Joint source channel coding
+{{< tdclose >}}
+{{< tdopen >}}
+Section 8.13
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Differential entropy, maximizing entropy
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9, sections 11.1 - 11.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Additive Gaussian noise channel
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 10.1 - 10.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Gaussian channels: parallel, colored noise, inter-symbol interference
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 10.4 - 10.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Gaussian channels with feedback
+{{< tdclose >}}
+{{< tdopen >}}
+Section 10.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Multiple access channels
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 14.1 - 14.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Broadcast channels
+{{< tdclose >}}
+{{< tdopen >}}
+Section 14.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+In-class presentations (2 sessions)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Finite state Markov channels
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Channel side information, wide-band channels
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Supplementary Readings
 ----------------------
